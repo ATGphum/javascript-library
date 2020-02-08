@@ -2,9 +2,23 @@
 <html>
     <head>
         <title>Javascript Library</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div id=contents></div>
+        <button id=bookadd>Add Book</button>
+        <form id="frm" class=remove action="/action_page.php">
+            Book name: <input type="text" id=bname name="bname"><br>
+            Author: <input type="text" id=aname name="aname"><br>
+            Number of Pages: <input type="text" id=pages name="pages"><br>
+            Has been read:<br>
+            <input type="radio" id=isread name="read" checked>Yes<br>
+            <input type="radio" id=notread name="read">No<br><br>
+            <input type="button" id=submit value="Submit">
+        </form>
+
+
+
         <script src="scripts.js"></script>
 
     </body>
